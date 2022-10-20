@@ -152,8 +152,42 @@ Virtuellt privat nät
 **Väljare** - eng. router, dator som väljer väg för att vidarebefordra data i ett nätverk.
 
 **Växel** - eng. switch, skikt-två-tekniken i OSI-modellen.
+<br>
+#
+
+<br>
+<br>
 
 
 
+# Link-State Algorithms
 
+## Dijkstra´s algoritm
+- Nättopologi, länkkostnader kända för alla noder
+    - Sker via "link-state broadcast". 
+    - Alla noder har samma information.
+- Beräkning av vägar med lägsta kostnad från en nod ("källa") till alla andra noder 
+    - ger en ***vidarebefordringstabell*** för den noden
+- Iterativ: efter k iterationer, vet minsta kostnaden för vägen till k destinationer
 
+## Notation:
+- $c(x,y)$: länkkostnad från noden. $x$ till $y; = ∞$ om inte direkt grannar
+- $D(v)$: aktuellt värde för kostnaden för vägen från källan till destination v
+- $p(v)$: föregångskod. längs vägen från källan till v
+- $N'$: uppsättning av noder vars väg med lägsta kostnad slutgiltigt känd
+#
+## Dijkstra´s algoritm: exempel 
+
+![](Bilder/Dijkstras.png)
+#
+## Dijkstra´s algoritm: annat exempel 
+
+![](Bilder/Dijkstras2.png)
+#
+## Dijkstra´s algoritm: exempel 2
+
+![](Bilder/Dijkstras3.png)
+#
+## Dijkstra´s algoritm, diskusion
+
+![](Bilder/Dijkstras4.png)
