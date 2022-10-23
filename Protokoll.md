@@ -5,7 +5,7 @@
 
 ## PPP: Point-to-Point Protocol
 #
-&nbsp;&nbsp; **Namn på Fält &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Storlek (bytes)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Beskrivning**
+&nbsp; **Namn på Fält &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Storlek (bytes)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Beskrivning**
 #
 - **Flag  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	
 Flag:** Anger att en PPP-ram börjar. Har alltid värdet "01111110" binärt (0x7E hexadecimalt   
