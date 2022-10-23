@@ -39,6 +39,7 @@ Flag:** Anger att en PPP-ram börjar. Har alltid värdet "01111110" binärt (0x7
 - **Padding	 &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; Variable &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Padding:** I vissa fall kan ytterligare dummy-bytes läggas till för att fylla ut PPP-ramens storlek.
 
 <br>
+<br>
 
 - **FCS &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; 2 (or 4)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Frame Check Sequence (FCS):** En kontrollsumma som beräknas över ramen för att ge ett    
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; grundläggande skydd mot överföringsfel. Detta är en CRC-kod som liknar den som används för     
