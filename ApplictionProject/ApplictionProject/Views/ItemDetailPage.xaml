@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApplictionProject.Views.ItemDetailPage"
+             Title="{Binding Title}">
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Delete" Command="{Binding DeleteItemCommand}" />
+        
+    </ContentPage.ToolbarItems>
+    
+    <StackLayout Spacing="10" Padding="30" BackgroundColor="#FFFAFA">
+        
+        <Label Text="Vara:" FontSize="Medium" FontAttributes="Bold" />
+        <Label Text="{Binding Text}" FontSize="Small"/>
+        <Label Text="Beskrivning:" FontSize="Medium" FontAttributes="Bold" />
+        <Label Text="{Binding Description}" FontSize="Small"/>
+    </StackLayout>
+  
+
+</ContentPage>
