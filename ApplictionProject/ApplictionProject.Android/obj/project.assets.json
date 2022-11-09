@@ -2148,11 +2148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karls\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.Android\\ApplictionProject.Android.csproj",
+      "projectUniqueName": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.Android\\ApplictionProject.Android.csproj",
       "projectName": "ApplictionProject.Android",
-      "projectPath": "C:\\Users\\karls\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.Android\\ApplictionProject.Android.csproj",
+      "projectPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.Android\\ApplictionProject.Android.csproj",
       "packagesPath": "C:\\Users\\karls\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karls\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.Android\\obj\\",
+      "outputPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2173,8 +2173,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\karls\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj": {
-              "projectPath": "C:\\Users\\karls\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj"
+            "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj": {
+              "projectPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj"
             }
           }
         }

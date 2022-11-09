@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karls\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj": {}
+    "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karls\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj": {
+    "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karls\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj",
+        "projectUniqueName": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj",
         "projectName": "ApplictionProject",
-        "projectPath": "C:\\Users\\karls\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj",
+        "projectPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj",
         "packagesPath": "C:\\Users\\karls\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karls\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\obj\\",
+        "outputPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
