@@ -4,19 +4,10 @@
              x:Class="ApplictionProject.Views.ItemDetailPage"
              Title="{Binding Title}">
 
-
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Delete" Command="{Binding DeleteItemCommand}" />
-        
-    </ContentPage.ToolbarItems>
-    
     <StackLayout Spacing="10" Padding="30" BackgroundColor="#FFFAFA">
-        
-        <Label Text="Vara:" FontSize="Medium" FontAttributes="Bold" />
-        <Label Text="{Binding Text}" FontSize="Small"/>
-        <Label Text="Beskrivning:" FontSize="Medium" FontAttributes="Bold" />
-        <Label Text="{Binding Description}" FontSize="Small"/>
+        <Label Text="Description:" FontSize="25" FontAttributes="Bold" TextColor="#696969" />
+        <Label Text="{Binding Description}" FontSize="19" TextColor="#808080"/>
+        <Label Text="IceBreaker:" FontSize="25" FontAttributes="Bold" TextColor="#696969" />
+        <Label Text="{Binding Text}" FontSize="18" TextColor="#808080"/>
     </StackLayout>
-  
-
 </ContentPage>

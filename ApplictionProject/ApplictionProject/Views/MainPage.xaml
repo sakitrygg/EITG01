@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApplictionProject.Views.MainPage"
+             xmlns:vm="clr-namespace:ApplictionProject.ViewModels"
+             x:Name="BrowseMainPage"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:MainViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Background">#EAF5F7</Color>
+            <Color x:Key="ButtonText">#FFFAFA</Color>
+            <Color x:Key="Text1">#696969</Color>
+            <Color x:Key="Text2">#808080</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid BackgroundColor="{StaticResource Background}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <!-- padding = left, top, right, bottom "-->
+            <StackLayout Padding="0, 0, 0, 0" >
+
+                <Image Source="titanic.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="Center" Aspect="AspectFill"  />
+                
+            </StackLayout>
+        </StackLayout>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" 
+                         Padding="30,10,30,24" 
+                         Spacing="10" 
+                         BackgroundColor="{StaticResource Background}">
+                <Label Text="TITANIC" 
+                       FontSize="30" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center" 
+                       TextColor="{StaticResource Text1}"
+                       FontAttributes="Bold"/>
+                <Label Text="THE APP FOR ICEBREAKERS" 
+                       HorizontalTextAlignment="Center"
+                       FontSize="Title" 
+                       VerticalOptions="Center" 
+                       TextColor="{StaticResource Text2}"/>
+                <Label Text="This application helps you to in a smooth way lighten up the mood. With the help of the Titanic app, you're guaranteed to have a potential partner in no time!"
+                       FontSize="16" 
+                       Padding="0,0,0,0"
+                       TextColor="{StaticResource Text2}"/>
+                
+                
+                <Button Margin="0,20,0,0" 
+                        CornerRadius="36"
+                        HorizontalOptions="Center"
+                        WidthRequest="300"
+                        Text="To IceBreaker"
+                        Clicked="ToIceBreaker"
+                        
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="{StaticResource ButtonText}" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

@@ -971,7 +971,7 @@
           "buildTransitive/monoandroid50/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "ApplictionProject/1.0.0": {
+      "Titanic/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -979,10 +979,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/ApplictionProject.dll": {}
+          "bin/placeholder/Titanic.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ApplictionProject.dll": {}
+          "bin/placeholder/Titanic.dll": {}
         }
       }
     }
@@ -2128,15 +2128,15 @@
         "xamarin.google.guava.listenablefuture.nuspec"
       ]
     },
-    "ApplictionProject/1.0.0": {
+    "Titanic/1.0.0": {
       "type": "project",
-      "path": "../ApplictionProject/ApplictionProject.csproj",
-      "msbuildProject": "../ApplictionProject/ApplictionProject.csproj"
+      "path": "../ApplictionProject/Titanic IceBreaker.csproj",
+      "msbuildProject": "../ApplictionProject/Titanic IceBreaker.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v11.0": [
-      "ApplictionProject >= 1.0.0",
+      "Titanic >= 1.0.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
@@ -2148,11 +2148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.Android\\ApplictionProject.Android.csproj",
+      "projectUniqueName": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject.Android\\ApplictionProject.Android.csproj",
       "projectName": "ApplictionProject.Android",
-      "projectPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.Android\\ApplictionProject.Android.csproj",
+      "projectPath": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject.Android\\ApplictionProject.Android.csproj",
       "packagesPath": "C:\\Users\\karls\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.Android\\obj\\",
+      "outputPath": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2173,8 +2173,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj": {
-              "projectPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj"
+            "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject\\Titanic IceBreaker.csproj": {
+              "projectPath": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject\\Titanic IceBreaker.csproj"
             }
           }
         }

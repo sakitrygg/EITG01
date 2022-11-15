@@ -7,9 +7,17 @@
              xmlns:model="clr-namespace:ApplictionProject.Models"  
              x:Name="BrowseItemsPage">
 
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Background">#FFFAFA</Color>
+            <Color x:Key="Text1">#696969</Color>
+            <Color x:Key="Text2">#808080</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add" Command="{Binding AddItemCommand}" />
-        <ToolbarItem Text="Clear" Command="{Binding ClearItemCommand}" />
+        
+        <!--   <ToolbarItem Text="Add" Command="{Binding AddItemCommand}" />
+        <ToolbarItem Text="Clear" Command="{Binding ClearItemCommand}" />  -->
     </ContentPage.ToolbarItems>
     <!--
       x:DataType enables compiled bindings for better performance and compile time validation of binding expressions.
@@ -17,19 +25,25 @@
     -->
     <RefreshView x:DataType="local:ItemsViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
         <CollectionView x:Name="ItemsListView"
-                ItemsSource="{Binding Items}"
-                SelectionMode="None">
+                        ItemsSource="{Binding Items}"
+                        SelectionMode="None"
+                        BackgroundColor="{StaticResource Background}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Padding="10" x:DataType="model:Item">
+                       
+                       <Label Text="{Binding Description}"
+                              LineBreakMode="NoWrap"
+                              Style="{DynamicResource ListItemDetailTextStyle}"
+                              FontSize="14"
+                              TextColor="{StaticResource Text1}"
+                              />
                         <Label Text="{Binding Text}" 
-                            LineBreakMode="NoWrap" 
-                            Style="{DynamicResource ListItemTextStyle}" 
-                            FontSize="16" />
-                        <Label Text="{Binding Description}" 
-                            LineBreakMode="NoWrap"
-                            Style="{DynamicResource ListItemDetailTextStyle}"
-                            FontSize="13" />
+                               LineBreakMode="NoWrap" 
+                               Style="{DynamicResource ListItemTextStyle}" 
+                               FontSize="12" 
+                               TextColor="{StaticResource Text2}"
+                               />
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer 
                                 NumberOfTapsRequired="1"

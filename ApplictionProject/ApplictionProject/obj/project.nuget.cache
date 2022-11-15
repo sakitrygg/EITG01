@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t/oN4BdDmJSxxp7VisXgd7utfV8iuEA8seKqGyI+M0OlwqwN7PIMIj/cwpA1EoVksXiZtTc3fxdCpM+hEelHrw==",
+  "dgSpecHash": "xBCqCba7KWg3aVJnj0UuNYlvvj02oG0sy1o1KHVDMlKz/G/18zdFkYKM5TCRoGdx5hBRk8hkGUcWcFG2Jdr8DQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj",
+  "projectFilePath": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject\\Titanic IceBreaker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karls\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\karls\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

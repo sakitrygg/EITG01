@@ -15,22 +15,6 @@ namespace ApplictionProject.ViewModels
 
         public string Id { get; set; }
 
-        public Command DeleteItemCommand { get; }
-        public ItemDetailViewModel()
-        {
-            DeleteItemCommand = new Command(DeleteItem);
-        }
-        
-
-        async void DeleteItem()
-        {
-            IsBusy = true;
-            await DataStore.DeleteItemAsync(itemId);
-            await Shell.Current.GoToAsync("..");
-            return;
-
-        }
-
         public string Text
         {
             get => text;

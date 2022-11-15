@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.iOS\\ApplictionProject.iOS.csproj": {}
+    "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject.iOS\\ApplictionProject.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.iOS\\ApplictionProject.iOS.csproj": {
+    "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject.iOS\\ApplictionProject.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.iOS\\ApplictionProject.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject.iOS\\ApplictionProject.iOS.csproj",
         "projectName": "ApplictionProject.iOS",
-        "projectPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.iOS\\ApplictionProject.iOS.csproj",
+        "projectPath": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject.iOS\\ApplictionProject.iOS.csproj",
         "packagesPath": "C:\\Users\\karls\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject.iOS\\obj\\",
+        "outputPath": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj": {
-                "projectPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj"
+              "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject\\Titanic IceBreaker.csproj": {
+                "projectPath": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject\\Titanic IceBreaker.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj": {
+    "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject\\Titanic IceBreaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj",
-        "projectName": "ApplictionProject",
-        "projectPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\ApplictionProject.csproj",
+        "projectUniqueName": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject\\Titanic IceBreaker.csproj",
+        "projectName": "Titanic",
+        "projectPath": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject\\Titanic IceBreaker.csproj",
         "packagesPath": "C:\\Users\\karls\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karls\\OneDrive\\Documents\\GitHub\\EITG01\\ApplictionProject\\ApplictionProject\\obj\\",
+        "outputPath": "C:\\Users\\karls\\source\\repos\\ApplictionProject\\ApplictionProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

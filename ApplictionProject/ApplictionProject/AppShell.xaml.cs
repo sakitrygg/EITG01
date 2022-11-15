@@ -3,6 +3,8 @@ using ApplictionProject.Views;
 using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
+using System.Windows.Input;
+using Xamarin.Essentials;
 
 namespace ApplictionProject
 {
@@ -12,8 +14,9 @@ namespace ApplictionProject
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
-        }
+            Routing.RegisterRoute(nameof(AboutPage), typeof(AboutPage));
+        }      
 
+       
     }
 }

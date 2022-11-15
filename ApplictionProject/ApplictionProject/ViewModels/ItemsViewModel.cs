@@ -15,8 +15,6 @@ namespace ApplictionProject.ViewModels
 
         public ObservableCollection<Item> Items { get; }
         public Command LoadItemsCommand { get; }
-        public Command AddItemCommand { get; }
-        public Command ClearItemCommand { get; }
         public Command<Item> ItemTapped { get; }
         
         public ItemsViewModel()
@@ -27,18 +25,9 @@ namespace ApplictionProject.ViewModels
 
             ItemTapped = new Command<Item>(OnItemSelected);
 
-            AddItemCommand = new Command(OnAddItem);
-
-            ClearItemCommand = new Command(ClearItems);
+            
         }
 
-        async void ClearItems()
-        {
-            IsBusy = true;
-            Items.Clear();
-            DataStore.ClearAllItems();
-           
-        }
         async Task ExecuteLoadItemsCommand()
         {
             IsBusy = true;
@@ -78,10 +67,7 @@ namespace ApplictionProject.ViewModels
             }
         }
 
-        private async void OnAddItem(object obj)
-        {
-            await Shell.Current.GoToAsync(nameof(NewItemPage));
-        }
+        
 
         async void OnItemSelected(Item item)
         {
