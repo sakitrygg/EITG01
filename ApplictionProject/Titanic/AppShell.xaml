@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:Titanic.Views"
+       Title="Titanic"
+       x:Class="Titanic.AppShell"
+       BackgroundColor="#EAF5F7">
+
+    <!--
+        The overall app visual hierarchy is defined here, along with navigation.
+    
+        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
+    -->
+    
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.FlyoutBackgroundColor" Value="#EAF5F7"/>
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="AbsoluteLayout.Background" Value="titanic.jpg"/>
+                <Setter Property="Shell.ForegroundColor" Value="#EAF5F7" />
+                <Setter Property="Shell.TitleColor" Value="{StaticResource Primary}" />
+                <Setter Property="Shell.DisabledColor" Value="#FFFAFA" />
+                <Setter Property="Shell.UnselectedColor" Value="#FFFAFA" />
+                <Setter Property="Shell.FlyoutBackgroundColor" Value="{StaticResource Primary}" />
+
+            </Style>
+ 
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
+        </ResourceDictionary>
+    </Shell.Resources>
+
+
+
+    <FlyoutItem Title="Main Page" Icon="icon_home.png" Route="MainPage">
+        <Tab>
+            <ShellContent  ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Content List" Icon="icon_feed.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:ListPage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="About" Icon="icon_about.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+    </FlyoutItem>
+</Shell>

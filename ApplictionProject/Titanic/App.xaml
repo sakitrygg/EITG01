@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Titanic.App">
+    <!--
+        Defined global resources and styles , that applies to all pages in the app 
+    -->
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <Color x:Key="Primary">#1E404C</Color>
+            <Color x:Key="Button">#438C93</Color>
+            <Color x:Key="ButtonText">#FFFAFA</Color>
+            <Color x:Key="Background">#EAF5F7</Color>
+            <Color x:Key="Text1">#696969</Color>
+            <Color x:Key="Text2">#808080</Color>
+            <Color x:Key="Text3">#2a2a2a</Color>
+            <Color x:Key="Text4">#3f3f3f</Color>
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="#FFFAFA"></Setter>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="#A6DAE5" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>        
+    </Application.Resources>
+</Application>

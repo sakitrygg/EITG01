@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Titanic.Views.AboutPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Background">#EAF5F7</Color>
+            <Color x:Key="ButtonText">#FFFAFA</Color>
+            <Color x:Key="Text1">#696969</Color>
+            <Color x:Key="Text2">#808080</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid BackgroundColor="{StaticResource Background}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <!-- padding = left, top, right, bottom "-->
+            <StackLayout Padding="0, 0, 0, 0" >
+
+                <Image Source="titanic.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="Center" Aspect="AspectFill"  />
+
+            </StackLayout>
+        </StackLayout>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Margin="20,10,20,24" Spacing="10" BackgroundColor="{StaticResource Background}">
+
+                <Label Text=" ABOUT TITANIC" 
+                           FontSize="30" 
+                           VerticalOptions="Center" 
+                           HorizontalOptions="Center" 
+                           TextColor="{StaticResource Text1}"
+                           FontAttributes="Bold,Italic"/>
+                <Label Text="THE APP FOR ICEBREAKERS" 
+                           HorizontalTextAlignment="Center"
+                           FontSize="Title" 
+                           FontAttributes="Italic"
+                           VerticalOptions="Center" 
+                           TextColor="{StaticResource Text2}"/>
+                <Label Text="This application is built by Isac Karlsson and Nils Ahlmén. Check out the code on GitHub!"
+                           HorizontalTextAlignment="Center"
+                           FontSize="12.5" 
+                           
+                           TextColor="{StaticResource Text2}"/>
+                <Button Margin="0,50,0,0" 
+                CornerRadius="36"
+                HorizontalOptions="Center" 
+                
+                HeightRequest="60" WidthRequest="200"
+                Text="To GitHub"                            
+                Clicked="BrowseCommand"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="{StaticResource ButtonText}"/>
+            </StackLayout>
+
+        </ScrollView>
+        <StackLayout>
+            
+        </StackLayout>
+    </Grid>
+    
+   
+</ContentPage>

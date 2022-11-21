@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Titanic.Views.QuestionPage"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:Titanic.ViewModels"   
+             x:Name="BrowseQuestionPage"
+             BackgroundImageSource="titanic.jpg">
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Background">#EAF5F7</Color>
+            <Color x:Key="Text1">#2a2a2a</Color>
+            <Color x:Key="Text2">#3f3f3f</Color> 
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <!-- BackgroundColor="{StaticResource Background}"-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <!-- padding = left, top, right, bottom "-->
+
+        <RefreshView x:DataType="local:QuestionViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}" Background="titanic.jpg">
+            <StackLayout Padding="20">
+                <Label Text="IceBreakers:" 
+                       
+                       Padding="0,50,0,20"
+                       FontSize="30" 
+                       FontAttributes="Bold" 
+                       TextColor="{StaticResource Primary}" 
+                       HorizontalOptions="Center" />
+                <Label Text="{Binding Description}" 
+                       HorizontalOptions="Center"
+                       FontSize="26" 
+                       FontAttributes="Bold" 
+                       TextColor="{StaticResource Primary}"/>
+                <Label Text="{Binding Text}" 
+                       HorizontalTextAlignment="Center"
+                       Padding="20,20,20,20" 
+                       HorizontalOptions="Center"
+                       FontSize="20" 
+                       FontAttributes="None" 
+                       TextColor="{StaticResource Text2}"/>
+            </StackLayout>
+
+        </RefreshView>
+        <Button Text="New IceBreaker" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center" 
+                HeightRequest="60" 
+                WidthRequest="200" 
+                
+                Command="{Binding NextQuestion}" 
+                CornerRadius="35" 
+                BackgroundColor="#438C93" 
+                TextColor="#FFFAFA" 
+                Margin="0,200,0,0"/>
+    </Grid>
+</ContentPage>
+    
+    
