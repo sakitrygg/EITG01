@@ -1,10 +1,14 @@
-# **Förkortningar och ord med dess betydelse.**
-### Dator- och telekommunikation (EITG01)
-
-<br>
-
-## Förkortningar
+# **Förkortningar, Begrepp och Linkstate**
+### *Dator- och telekommunikation (EITG01)*
+# **Innehåll**
+- 1.0 Förkortningar med dess betydelse.     
+- 2.0 Ord med dess betydelse.      
+- 3.0 Link-State Algorithms.    
+    - 3.1 Dijkstra´s algoritm   
 #
+
+## 1.0 Förkortningar
+<br>
 
 - **AS  - Autonomous System**   
 Ett nätverk som administreras av ett företag, universitet eller liknande. Kan även kallas domän.
@@ -131,8 +135,9 @@ Virtuellt privat nät
 
 <br>
 
-## Ordlista
-#
+## 2.0 Ordlista
+<br>
+
 **Broadcast** - En sänder och alla mottager data.   
 
 **Förbindelseorienterat** - En fast förbindelse existerar.
@@ -160,9 +165,10 @@ Virtuellt privat nät
 
 
 
-# Link-State Algorithms
+# 3.0 Link-State Algorithms
+<br>
 
-## Dijkstra´s algoritm
+## 3.1 Dijkstra´s algoritm
 - Nättopologi, länkkostnader kända för alla noder
     - Sker via "link-state broadcast". 
     - Alla noder har samma information.
